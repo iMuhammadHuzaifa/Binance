@@ -1,0 +1,300 @@
+body{
+    background-color:#171a1f;
+    }
+    .allwrap{
+    
+        display: flex;
+        justify-content: space-between;
+    }
+    .left{
+        height: 100vh;
+        width: 70vw;
+    }
+    .right{
+    height: 100vh;
+    width: 70vw;
+    }
+    .logo img{
+    height: 40px;
+    width: 120px;
+    
+    }
+    .nav{
+    align-items: center;
+        display: flex;
+    }
+    .leftone{
+        margin: 20px 10px;
+        justify-content: center;
+    
+    display: flex;
+    
+    }
+    .links a{
+        text-decoration: none;
+        color: #dbdee0;
+    }
+    .links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    padding: 0 50px;
+    
+    }
+    .links a{
+        font-size: 13px;
+        margin: 0 10px;
+    }
+    .logo{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .links a:hover{
+    
+    color: #d6b83c;}
+    nav{
+    display: flex;
+    justify-content: center;
+    }
+    .links1 a{
+    
+        color: #dbdee0;
+    margin: 0 20px;
+    }
+    .links1{
+    
+    
+    margin-left: 190px;
+    }
+    .sign{
+    padding-left: 80px;
+        display: flex;
+        text-align: center;
+        border-radius: 30px;
+    
+        align-items: center;
+        justify-content: center;
+    background-color: #d6b83c ;
+    padding: 10px 20px;
+    font-size: 13px;
+    
+    }
+    .sign a{
+        padding-right: 20px;
+    margin-left: 20px;
+        display: flex;
+    justify-content: center;   
+     text-align: center;
+        
+    }
+    .descp{
+        letter-spacing: 3px;
+        padding-top: 60px;
+        margin-left: 50px;
+        color: #dbdee0;
+    font-size: 40px;
+    }
+    .descp h1{
+        line-height: 0.2;
+        padding: 2px;
+    
+    }
+    .num{
+    white-space: nowrap;
+        color: #e6b00d;
+    }
+    .email{
+        
+        margin-left: 60px;
+    }
+    .email input{
+        background-color: transparent;
+    padding: 15px 25px;
+    
+    border-radius: 10px;
+    
+    
+    
+    }
+    .email button{
+        border-radius: 10px;
+    padding: 15px 45px;
+    background-color: #d6b83c ;
+    margin-left: 15px;
+    }
+    button:hover{
+    background-color: #b9a03d;
+    
+    }
+    .email input:hover{
+    border: 1px solid  #b9a03d;
+    }
+    
+    .text{
+    
+        color: gainsboro;
+    }
+    
+    .text span{
+    margin-left: 40px;
+    
+    
+    }
+    .acc{
+        margin-left: 30px;
+        padding: 20px;
+        
+    
+    }
+    .textbot{
+        margin-left: 30px;
+        
+        padding: 20px 30px;
+        
+    }.textbot a{
+        border: 2px solid  #b9a03d;
+    padding:10px 10px;
+        color: #dbdee0;
+    }
+    .one {
+        margin-left: 70px;
+        
+    }
+    .wrap2{height: 40vh;
+        width: 35vw;
+    
+        border-radius: 30px ;
+        background-color: rgb(30,35,41);
+    margin-left: 140px;
+        margin-top: 70px;
+    }
+    .coin img{
+    height: 20px;
+    width: 20px;
+    }
+    .coin li{
+        text-decoration: none;
+        padding-top: 20px;
+        color: #dbdee0;
+    
+    }
+    .coin span{
+    
+    
+        padding-right: 40px;
+    }
+    #col{
+    padding-right: 5px;
+        color: grey;
+    }
+    #col2{
+    color: red;
+    }
+    #col4{
+        color: rgb(34, 255, 0);
+        }
+        #col3{
+            color: rgb(119, 255, 0);
+            }
+            .coin p{
+    color: gray;
+    font-size: 15px;
+            }
+            .coin1{
+                padding-top: 20px;
+            }
+            .wrap3
+            {
+    margin-top: 15px;
+    
+    padding-bottom: 40px;
+    margin-left: 140px;
+    color: white;
+                height: 35vh;
+        width: 35vw;
+        border-radius: 30px ;
+        background-color: rgb(30,35,41);
+            }
+            .coin1 p{
+                color: grey;
+    margin-left: 10px;          
+                margin-bottom: 30px;
+            }
+    .change:after{
+    content: "";
+    color: #e6b00d;
+    animation: changenum 3s infinite linear;
+    }
+    @keyframes changenum{
+    
+        0%{
+            content: ",888";
+            
+        }
+        10%{
+            content: ",980";
+            
+        } 
+        15%{
+            content: ",910";
+            
+        } 
+        20%{
+            content: ",297";
+            
+        }
+        25%{
+            content: ",999";
+            
+        } 
+        35%{
+            content: ",792";
+            
+        } 
+        45%{
+            content: ",247";
+            
+        }
+        50%{
+            content: ",672";
+            
+        } 
+        60%{
+            content: ",345";
+            
+        } 
+        55%{
+            content: ",786";
+            
+        }
+        60%{
+            content: ",178";
+            
+        } 
+        75%{
+            content: ",190";
+            
+        } 
+        800%{
+            content: ",638";
+            
+        }
+        85%{
+            content: ",695";
+            
+        } 
+        90%{
+            content: ",827";
+            
+        } 
+        95%{
+            content: ",697";
+            
+        }
+        100%{
+            content: ",159";
+            
+        } 
+    }
